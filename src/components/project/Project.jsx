@@ -1,28 +1,29 @@
-import React from 'react';
-import './Service.css';
+import React from 'react'
 import img1 from '../../assets/m4.jpeg'
 import img2 from "../../assets/lonuge.jpg"
+import './Project.css'
 
-export const Service = () => {
-    const arr = [
-        {
-            name: "Room Booking Managemnet",
-            image: img1,
-            url : "https://github.com/Vengadesh006/E-commerce-Site-"
-        },
-        {
-            name: "E-Commerce Site",
-            image: img2,
-            url : "https://github.com/Vengadesh006/Hotel-Room-Booking-Management"
-        },
-        {
-            name: "Student Attendance Management",
-            image: "https://www.shutterstock.com/image-vector/time-attendance-tracking-system-abstract-600nw-2282512623.jpg",
-            url : "https://github.com/Vengadesh006/Coures_management"
-        }
-    ];
+export const Project = () => {
 
-    return (
+     const arr = [
+            {
+                name: "Room Booking Managemnet",
+                image: img1,
+                url : "https://github.com/Vengadesh006/E-commerce-Site-"
+            },
+            {
+                name: "E-Commerce Site",
+                image: img2,
+                url : "https://github.com/Vengadesh006/Hotel-Room-Booking-Management"
+            },
+            {
+                name: "Student Attendance Management",
+                image: "https://www.shutterstock.com/image-vector/time-attendance-tracking-system-abstract-600nw-2282512623.jpg",
+                url : "https://github.com/Vengadesh006/Coures_management"
+            }
+        ];
+        
+  return (
         <div className="container" id='Service' >
             <h1 className='text-center my-5 text-white' > <span className='text-danger' >P</span>roject </h1>
             <div className="row justify-content-center">

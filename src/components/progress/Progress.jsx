@@ -5,7 +5,7 @@ import {
     buildStyles
 } from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 export const Progress = () => {
     const skills = [

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import './Header.css'
 import img from '../../assets/venky.jpeg'
-// import './SocialIcons.css'; 
+ 
 
 export const Header = () => {
 
