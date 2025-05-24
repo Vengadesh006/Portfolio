@@ -1,0 +1,25 @@
+.para1 h1{
+    font-size: 3rem;
+    font-weight:bold;
+    color: white;
+    margin: 20px 0px;
+}
+.para1 p {
+    font-size:1.6rem ;
+    color: white;
+    line-height: 1.1;
+    margin: 50px 0px ;
+}
+.contact-address{
+    display: flex;
+    gap: 40px;
+}
+.contact-icon{
+    font-size: 2rem;
+    font-weight: 500;
+    color: #cc4141;
+}
+.contact-infor{
+    color: white;
+    margin-bottom: 20px;
+}

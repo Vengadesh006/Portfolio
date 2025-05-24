@@ -1,0 +1,59 @@
+ .text-items {
+overflow: hidden;
+ }
+ .text-items .text{
+    position: relative;
+    color: #ff005d;
+    font-size: 30px;
+    font-weight: 600;
+    
+ }
+  .text-items .text.first-text{
+    color: #fff;
+  }
+.text-items .second-text::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    border-left: 2px solid #ff0051 ;
+    background: black;
+    animation: animate 4s steps(12) infinite;
+}
+
+@keyframes animate {
+    40%, 60% {
+        left: 100%;
+    }
+    100% {
+        left: 0%;
+    }
+}
+
+.icons {
+  position: relative;
+  margin: 30px 0px;
+  display: flex;
+  gap: 30px;
+}
+
+/* .icons span a {
+  color: #fff;
+  font-size: 2rem;
+  line-height: 1.2;
+  transition: all 1s ease;
+} */
+.icons span a {
+  display: inline-block; /* important for transform to take effect */
+  color: #fff;
+  font-size: 2rem;
+  line-height: 1.2;
+  transition: all 0.7s ease;
+}
+
+.icons span a:hover{
+    transform: translateY(-10px);
+    color: #ff0051;
+} 
