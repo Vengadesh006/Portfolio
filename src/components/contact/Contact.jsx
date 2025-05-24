@@ -19,7 +19,7 @@ export const Contact = () => {
                 <div className="contact-infor">
                   <h4> Address </h4>
                   <h5> Rajathanikaottai,East Street </h5>
-                  <h5> Dingigul-624203 </h5>
+                  <h5> Dindigul-624203 </h5>
                 </div>
               </div>
               <div className="contact-address">
@@ -38,7 +38,7 @@ export const Contact = () => {
                 </div>
                 <div className="contact-infor">
                   <h4> Email </h4>
-                  <h5> <a href=""> vengadesh473@gmail.com </a> </h5>
+                  <h5 className='' > <a href="mailto:vengadesh473@gmail.com"> vengadesh473@gmail.com </a> </h5>
                 </div>
               </div>
 

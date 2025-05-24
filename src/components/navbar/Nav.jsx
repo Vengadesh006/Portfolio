@@ -33,7 +33,6 @@ export const Nav = () => {
         </div>
         
 
-
       </nav>
     
     
