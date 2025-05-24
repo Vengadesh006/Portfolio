@@ -2,6 +2,7 @@ import React from 'react';
 import './Service.css';
 import img1 from '../../assets/m4.jpeg'
 import img2 from "../../assets/lonuge.jpg"
+
 export const Service = () => {
     const arr = [
         {
