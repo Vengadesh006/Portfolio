@@ -1,0 +1,46 @@
+.backgrounds {
+    background-image: url("../../assets/white.jpg");
+    width: 100%;
+    height: 500px; /* or auto if you want dynamic height */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.cols {
+    display: flex;
+    gap: 10px;
+
+}
+.edu-icons i{
+    font-size: 1.9rem;
+    -webkit-text-stroke : thin transparent;
+    /* color: #66cce3; */
+}
+.para1 {
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    border: 2px solid transparent;
+    padding:10px 10px;
+    background: red;
+    color: white;
+    border-radius: 2rem;
+}
+
+.edu-head{
+    font-size: 1.8rem;
+    line-height: 1.4;
+    font-weight:bold;
+}
+.edu-second {
+    line-height: 1.5;
+    font-size: 1.5rem;
+    font-weight: 500;
+    isolation: isolate;
+}
