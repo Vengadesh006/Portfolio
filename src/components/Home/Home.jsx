@@ -9,6 +9,8 @@ export const Home = () => {
 
   const arr = ["Software Developer", "Full-Stack Developer", "Back-end Developer"]
 
+  
+
   useEffect(() => {
     let index = 0
     const interval = setInterval(() => {
