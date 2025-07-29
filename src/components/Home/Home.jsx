@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import "./Home.css"
-import homeImage from "../../assets/home.jpg"
+import homeImage from "../../assets/venky.png"
 
 
 export const Home = () => {
@@ -72,8 +72,9 @@ export const Home = () => {
               src={homeImage}
               alt="Profile"
               className="img-fluid rounded shadow"
-              width="100%"
-              style={{ maxWidth: '500px', height: 'auto' }}
+              width={400}
+              height={400}
+             
             />
           </div>
         </div>
